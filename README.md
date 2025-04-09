@@ -68,7 +68,9 @@ Figure -02 HALF Subtractor
     endmodule
 
 **RTL Schematic**
+![exp_3](https://github.com/user-attachments/assets/e37b5188-5d8b-4ca7-b3df-d3233c7e99f8)
 
 **Output/TIMING Waveform**
+![Screenshot 2025-04-07 140336](https://github.com/user-attachments/assets/4e78bff1-4f68-477d-822d-b824df6cf83a)
 
 **Result:**
