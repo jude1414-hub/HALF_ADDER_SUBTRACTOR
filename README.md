@@ -51,35 +51,21 @@ Figure -02 HALF Subtractor
 **Program:**
 
 
-  Developed by:Jude Clement Jose G
-  
-  RegisterNumber:212224230109
-
-  module exp_3(sum, cout, a, b, cin);
-  
-  output sum;
-  
-  output cout;
-  
-  input a;
-  
-  input b;
-  
-  input cin;
-  
-  wire w1,w2,w3;
-  
-  assign w1=a^b;
-  
-  assign w2=a&b;
-  
-  assign w3=w1&cin;
-  
-  assign sum=w1^cin;
-  
-  assign cout=w2|w3;
-  
-  endmodule
+    Developed by:Jude Clement Jose G
+    RegisterNumber:212224230109
+    module exp_3(sum, cout, a, b, cin);
+    output sum;
+    output cout;
+    input a;
+    input b;
+    input cin;
+    wire w1,w2,w3;
+    assign w1=a^b;
+    assign w2=a&b;
+    assign w3=w1&cin;
+    assign sum=w1^cin;
+    assign cout=w2|w3
+    endmodule
 
 **RTL Schematic**
 
