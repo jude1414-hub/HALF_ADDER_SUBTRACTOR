@@ -54,13 +54,20 @@ Develope By : Jude Clement Jose G
 Register Number : 212224230109
 ~~~
 ~~~
-
+module ex3(a,b,C,D,S,B);
+input a,b;
+output S,D,C,B;
+assign S = a^b;
+assign C = a&b;
+assign D = a^b;
+assign B = ~a&b;
+endmodule
 ~~~
 
 **RTL Schematic**
-![exp_3](https://github.com/user-attachments/assets/e37b5188-5d8b-4ca7-b3df-d3233c7e99f8)
+![Screenshot 2025-04-21 070713](https://github.com/user-attachments/assets/4e6263c1-dfbe-41d1-8d9d-5075bd7c823d)
 
 **Output/TIMING Waveform**
-![Screenshot 2025-04-07 140336](https://github.com/user-attachments/assets/4e78bff1-4f68-477d-822d-b824df6cf83a)
+![Screenshot 2025-04-21 070724](https://github.com/user-attachments/assets/a0d5a8a5-7dfa-4fec-8ffc-86576bb58f7e)
 
 **Result:**
