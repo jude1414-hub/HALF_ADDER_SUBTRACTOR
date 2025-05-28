@@ -71,3 +71,4 @@ endmodule
 ![Screenshot 2025-04-21 070724](https://github.com/user-attachments/assets/a0d5a8a5-7dfa-4fec-8ffc-86576bb58f7e)
 
 **Result:**
+Thus the half adder and half subtractor circuit and its truth table are verified by Quartus software.
